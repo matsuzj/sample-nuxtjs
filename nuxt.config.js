@@ -34,7 +34,7 @@ module.exports = {
     '@nuxtjs/axios'
   ],
   axios: {},
-  plugins: ['~/plugins/axios.js'],
+  plugins: ['~/plugins/axios','~/plugins/logger'],
   env: {
     QIITA_TOKEN: process.env.QIITA_TOKEN
   },
